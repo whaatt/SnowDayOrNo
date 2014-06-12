@@ -1,0 +1,86 @@
+body {
+	/*You can use any kind of background here.*/
+	background: #000;/*44EEEE;*/
+	color: #FFF;
+}
+
+canvas {
+	display: block;
+	position:absolute;
+    left:0;
+    top:0;
+	z-index: -1;
+}
+
+#middle{
+	text-align:center;
+	margin-top:15%;
+}
+
+p{
+	font-family: Arial, sans-serif;
+	position:relative;
+}
+
+p.yes{
+	font-size:120pt;
+	font-weight: bold;
+	color: green;
+	position:relative;
+	z-index: -2;
+}
+
+p.no{
+	font-size:120pt;
+	font-weight: bold;
+	color: red;
+	position:relative;
+	z-index: -2;
+}
+
+p.notyet{
+	font-size:120pt;
+	font-weight: bold;
+	color: orange;
+	position:relative;
+	z-index: -2;
+}
+
+.ie6 #social, .ie7 #social, .ie8 #social, .ie9 #social {
+    margin-left: 158px;
+}
+
+#social{
+    width: 136px;
+    margin: auto;
+}
+
+#twitter, #fb{
+    display: block;
+    border: none;
+    height: 21px;
+}
+
+#fb{
+    width: 81px;
+    margin-left: 27px;
+}
+
+.ie6 #fb, .ie7 #fb, .ie8 #fb, .ie9 #fb{
+    margin-left: 18px;
+}
+
+#twitter{
+    width: 136px;
+}
+
+a{
+	color: #66F;
+	text-decoration: none;
+	position:relative;
+	z-index:3;
+}
+
+a:visited{
+	color: #66F;
+}
